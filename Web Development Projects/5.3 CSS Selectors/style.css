@@ -7,16 +7,24 @@ ol {
 /* Write your CSS below, don't change the rules above. */
 p{
   color: red;
+
 }
+
 .note{
   font-size: 20px;
 }
+
 #id-selector-demo{
-  color: green;
+  color:green;
 }
-li[value="4"]{
-  color:blue;
+
+li[value="4"]
+{
+  color: blue;
 }
+
 *{
-  text-align: center
+  text-align: center;
 }
+
+
