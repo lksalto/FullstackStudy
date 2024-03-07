@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    p{
+      font-size: 40px;
+      text-align: center;
+      color: black;
+      margin: 0px;
+    }
+
+    .flag{
+      position: absolute;
+      background-color: green;
+      height: 600px;
+      width: 900px;
+    }
+
+    .flag>div{
+      background:
+      linear-gradient(to top right   ,yellow 49.5%, transparent 50%) top right,
+      linear-gradient(to top left    ,yellow 49.5%, transparent 50%) top left,
+      linear-gradient(to bottom right,yellow 49.5%, transparent 50%) bottom right,
+      linear-gradient(to bottom left ,yellow 49.5%, transparent 50%) bottom left;
+    background-size:50% 50%;
+    background-repeat:no-repeat;
+  
+    width:890px;
+    height: 590px;  
+    display:inline-block;
+    margin:5px;
+  }
+
+  .flag>div>div{
+    position: absolute;
+    background-color: blue;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    left: 250px;
+    top:100px
+  }
+
+  .flag>div>div>p{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    top:45%;
+    transform: 
+  }
+  </style>
+</head>
+
+<body>
+  <div class="flag">
+    <div>
+      <div>
+        <p>Ordem e Progresso</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
