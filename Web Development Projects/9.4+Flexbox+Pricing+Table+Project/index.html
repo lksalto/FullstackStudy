@@ -35,6 +35,7 @@
       {
         background-color: lightgrey;
         padding: 20px;
+        border-radius:5px;
       }
 
       .plan-button{
@@ -72,11 +73,8 @@
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 800px) {
         .pricing-container{
-          display: flex;
-          flex-wrap: wrap-reverse;
-          flex-flow: column;
-          justify-content: space-around;
-          margin-top: 50px;
+          flex-direction: column;
+          height: 100%;
         }
       }
     </style>
